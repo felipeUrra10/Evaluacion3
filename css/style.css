@@ -1,0 +1,51 @@
+.ancho-100 {
+    width: 100%;
+}
+
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-image: url('../img/eyes.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bordes{
+    border-radius: 10px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px !important;
+}
+
+.card-content {
+    background:#9ad3bc;
+    border-radius: 10px !important;
+    
+}
+
+
+
+.card-action{
+    background:#f3eac2 !important;
+    text-align: center;
+    border-radius: 10px !important;
+}
+
+a{
+    color: black !important;
+}
+
+
+
+nav{
+    background: #9ad3bc;
+    border-radius: 10px !important;
+}
+
+i{
+    color: #54b18c;
+}
+
