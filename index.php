@@ -62,19 +62,16 @@ if(isset($_SESSION['usuario'])){
 
     <!-- btn entrar -->
         <input type="hidden" name="estado" value="1">  
-        <button class="btn black ancho-100 bordes">Entrar</button>
+        <button class="btn black ancho-100">Entrar</button>
     
     <!-- enlace -->
     <br>
     <p>
         <a href="admin.php">Administrador</a>
     </p>
-    <span class="card-title activator ">Creadores<i class="material-icons right">more_vert</i></span>
-      <p><a href="#"></a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title">WEB:<i class="material-icons right">close</i></span>
-      <p>ANTONIO OSVALDO<br>MARCOS ORTEGA <br>FELIPE URRA</p>
+    
+    
+    <p class="bold">ANTONIO OSVALDO<br>MARCOS ORTEGA <br>FELIPE URRA</p>
     </div>
     </form>
     </div>

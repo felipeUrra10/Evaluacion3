@@ -63,7 +63,7 @@ if (isset($_SESSION['usuario'])) {
                     <li class="active"><a href="clientes.php">Crear Cliente</a></li>
                     <li><a href="#">receta</a></li>
                     <li><a href="#">Ingreso</a></li>
-                    <li><a href="salir.php"></a></li>
+                    <li><a href="salir.php">salir</a></li>
                     
                 </ul>
                         <div class="container">
