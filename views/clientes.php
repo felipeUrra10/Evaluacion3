@@ -54,7 +54,7 @@ if (isset($_SESSION['usuario'])) {
                     <li>
                         <div class="user-view">
                             <div class="background">
-                                <img src="http://img.freepik.com/iconos-gratis/lentes_318-68634.jpg?size=338&ext=jpg" alt="">
+                                <img src="http://img.freepik.com/iconos-gratis/lentes_318-68634.jpg?size=338&ext=jpgs" alt="">
                             </div>
                             <a href="#"><img class="http://img.freepik.com/iconos-gratis/lentes_318-68634.jpg?size=338&ext=jpg"></a>
 

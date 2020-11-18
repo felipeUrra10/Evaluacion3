@@ -30,25 +30,25 @@ if (isset($_SESSION['usuario'])) {
 </head>
 <body>
     <?php if (isset($_SESSION['usuario'])) { ?>
-        <div class="container">
-            <div class="row">
-                <nav class="nav-wrapper"> 
-                        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                        </a>
-                    
-                        <a href="#" class="brand-logo">Bienvenido <?= $_SESSION['usuario']['nombre'] ?></a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li class="active"><a href="gestion.php">Gestión de Usuarios</a></li>
-                            <li><a href="salir.php">Salir</a></li>
-                        </ul>                  
-                </nav>
-                <ul class="sidenav" id="menu-responsive">
-                <li class="active"><a href="gestion.php">Gestión de Usuarios</a></li>
-                            <li><a href="salir.php">Salir</a></li>
-                        
-                </ul>
-      
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        
+        <a href="#" class="brand-logo">Bienvenido <?= $_SESSION['usuario']['nombre'] ?></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="gestion.php">Gestión de Usuarios</a></li>
+            <li><a href="salir.php">Salir</a></li>
+        </ul>                  
+    </nav>
+    <ul class="sidenav" id="menu-responsive">
+        <li class="active"><a href="gestion.php">Gestión de Usuarios</a></li>
+        <li><a href="salir.php">Salir</a></li>
+        
+    </ul>
+    
+    <div class="container">
+        <div class="row">
+            <nav class="nav-wrapper"> 
     <div class="col l4 m4 s12"> 
         <?php if (isset($_SESSION['editar'])) { ?>           
             <div class="card">
